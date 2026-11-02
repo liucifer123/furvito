@@ -12,11 +12,13 @@ package.domain = org.futbol
 # (str) Source file where the main.py file lives
 source.dir = .
 
-# (list) Source files to include (let it empty to include all the files)
+# (list) Source files to include
 source.include_exts = py,png,jpg,kv,atlas,html,css
 
+# (str) Application versioning
+version = 1.0
+
 # (list) Application requirements
-# comma separated e.g. requirements = sqlite3,kivy
 requirements = python3,openssl,requests,flask,jinja2,werkzeug,click,MarkupSafe,itsdangerous
 
 # (str) Supported orientations
@@ -28,10 +30,10 @@ fullscreen = 0
 # (list) Permissions
 android.permissions = INTERNET
 
-# (int) Target Android API, should be as high as possible.
+# (int) Target Android API
 android.api = 31
 
-# (int) Minimum API your APK will support.
+# (int) Minimum API your APK will support
 android.minapi = 21
 
 # (int) Android SDK version to use
@@ -46,5 +48,5 @@ android.archs = arm64-v8a
 # (bool) Automatically accept android SDK license
 android.accept_sdk_license = True
 
-# Log level (0 = error only, 1 = info, 2 = debug)
+# Log level
 log_level = 2
